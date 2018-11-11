@@ -1,0 +1,119 @@
+body {
+    background-image: url(background.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+#latizq {
+    height: 300px;
+    width: 25%;
+    margin-left: 20px;
+    float: left;
+}
+
+#latizq textarea {
+    font-family: Arial;
+    top: 2px;
+    position: relative;
+    width: 97%;
+    background-color: rgba(233, 221, 221, 0.664);
+    border: 1px solid rgba(233, 221, 221, 0.664);
+    height: 120px;
+    display: block;
+    margin: auto;
+    resize: none;
+    color: black;
+}
+
+input[value="Post"] {
+    width: 100%;
+    position: relative;
+    top: 3px;
+}
+
+#usercontent {
+    background-image: url(../bg/default-header.jpg);
+    background-size: 130%;   
+    position: bottom;
+    height:  30%;
+    box-shadow: 5px 5px 5px rgba(14, 13, 13, 0.301);
+}
+
+#latizq div:nth-child(2) {
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.322);
+    height: 50%;
+    box-shadow: 5px 5px 5px rgba(14, 13, 13, 0.301);
+}
+
+#usercontent img {
+    float: left;
+    position: relative;
+    top: 10%;
+    border-radius: 160px;
+    height: 70px;
+    width: 70px;
+    left: 20px;
+}
+
+#usercontent h3 {
+    float: left;
+    position: relative;
+    left: 30px;
+    top: 15%;
+    color: rgb(29, 30, 49);
+    font-family: Helvetica, sans-serif;
+}
+
+#latder {
+    float: left;
+    height: 300px;
+    width: 70%;
+    margin-left: 20px;
+}
+
+#latder div {
+    background-color: rgba(255, 255, 255, 0.322);
+    box-shadow: 5px 5px 5px rgba(14, 13, 13, 0.301);
+    height: 150px;
+    border-top-right-radius: -130px;
+    margin-bottom: 15px;
+}
+
+#latder div img {
+    float: right;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 130px;
+}
+
+#latder div h4 {
+    float: right;
+    position: relative;
+    right: 10px;
+    top: 10px;
+}
+
+#latder p {
+    top: 5px;
+    position: relative;
+    float:left;
+    width: 75%;
+    margin-left: 30px;
+    font-family: Helvetica, sans-serif;
+    word-wrap: break-word;
+}
+
+#allcontent {
+    position: relative;
+    top: 15px;
+    width: 90%;
+    margin: auto;
+}
+
+div {
+    border-radius: 2px;
+}

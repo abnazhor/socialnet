@@ -1,0 +1,50 @@
+body {
+    background-image: url(background.jpg);
+    background-position: center;
+}
+
+#centro {
+    width: 700px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.39);
+    margin: auto;
+    position: relative;
+    top: 40px;
+}
+
+div h3 {
+    position: relative;
+    top: 10px;
+    font-size: 40px;
+    margin: auto;
+    text-align: center;
+}
+
+#der {
+    position: relative;
+    top: 20px;
+    height: 70%;
+    width: 100%;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    border: 2px solid white;
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+}
+
+p{
+    margin-left: 20px;
+    width: 73%;
+    float: left;
+}
+
+input {
+    float: left;
+    margin-left: 30px;
+    clear: both;
+}
