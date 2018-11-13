@@ -1,5 +1,4 @@
 <?php
-    mb_internal_encoding("UTF-8");
     require_once "structure/database.php";
 
     $conn = new mysqli($servername, $username, $password, $database);

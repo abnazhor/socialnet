@@ -28,7 +28,6 @@
         </div>
         <div id="latder">
                 <?php
-                    mb_internal_encoding("UTF-8");
                     for($i = 0; $i < count($posts); $i++) {
                         echo "<div><img src='".$posts[$i][2]."' alt=''><h4>".$posts[$i][3]."</h4><p>".$posts[$i][1]."</p></div>";
                     }
