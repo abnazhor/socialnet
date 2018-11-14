@@ -27,18 +27,25 @@ body {
 }
 
 #posts {
-    background-color: #e9dddda9;
     width: 69.5%;
-    float: left;
     position: relative;
+    float: left;
     top: 10px;
+}
+
+#posts div {
+    background-color: #e9dddda9;
+    height: 100px;
     border-radius: 2px;
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 #info {
     background-color: #e9dddda9;
     width: 30%;
-    height: 50px;
+    height: 300px;
     float: right;
     position: relative;
     top: 10px;
