@@ -13,6 +13,7 @@ body {
     background-position: center 500px;
     background-size: cover;
     border-radius: 3px;
+    box-shadow: 5px 5px 5px rgba(14, 13, 13, 0.301);
 }
 
 #header img {
@@ -40,6 +41,7 @@ body {
     float: left;
     width: 100%;
     margin-bottom: 10px;
+    box-shadow: 5px 5px 5px rgba(14, 13, 13, 0.301);
 }
 
 #info {
@@ -51,5 +53,6 @@ body {
     top: 10px;
     margin: auto;
     border-radius: 2px;
+    box-shadow: 5px 5px 5px rgba(14, 13, 13, 0.301);
 }
 
