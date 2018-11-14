@@ -17,7 +17,7 @@ body {
     top: 2px;
     position: relative;
     width: 97%;
-    background-color: rgba(233, 221, 221, 0.664);
+    background-color: #e9dddda9;
     border: 1px solid rgba(233, 221, 221, 0.664);
     height: 120px;
     display: block;
