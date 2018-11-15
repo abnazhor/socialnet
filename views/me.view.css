@@ -48,11 +48,17 @@ body {
     background-color: #e9dddda9;
     width: 30%;
     height: 300px;
-    float: right;
+    float: left;
     position: relative;
     top: 10px;
-    margin: auto;
+    margin-left: 5px;
     border-radius: 2px;
     box-shadow: 5px 5px 5px rgba(14, 13, 13, 0.301);
 }
 
+@media screen and (max-width: 1000px) {
+    #info, #posts {
+        width: 99.9%;
+        margin: auto;
+    }
+}

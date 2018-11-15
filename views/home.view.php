@@ -20,7 +20,7 @@
             </div>
             <div>
                 <form action="enviarMensaje.php" method="post">
-                <textarea name="mensaje">
+                <textarea name="mensaje" maxlength="250">
                 </textarea>
                 <input type="submit" value="Post">
                 </form>
