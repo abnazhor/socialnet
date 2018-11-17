@@ -13,23 +13,22 @@
 </head>
 <body>
     <div id="allcontent">
-        <div id="latizq">
+        <div id="header">
             <div id="usercontent">
-                <a href="aboutme.php"> <img src="<?php echo $_SESSION["profilepic"]; ?>" alt="profile picture">
-                <h3><?php echo $_SESSION["usuario"]; ?></h3></a>
+                <a href="aboutme.php"> <img src="<?php echo $_SESSION["profilepic"]; ?>" alt="profile picture"></a>
             </div>
-            <div>
+        </div>
+            <div id="message">
                 <form action="enviarMensaje.php" method="post">
                 <textarea name="mensaje" maxlength="250">
                 </textarea>
                 <input type="submit" value="Post">
                 </form>
             </div>
-        </div>
-        <div id="latder">
+        <div id="content">
                 <?php
                     for($i = 0; $i < count($posts); $i++) {
-                        echo "<div><img src='".$posts[$i][2]."' alt=''><h4>".$posts[$i][3]."</h4><p>".$posts[$i][1]."</p></div>";
+                        echo "<div><img src='".$posts[$i][2]."' alt=''><p>".$posts[$i][1]."</p></div>";
                     }
                 ?>
         </div>
