@@ -5,12 +5,12 @@
     <meta charset="utf-8" />
     <title>Page Title</title>
     <script src="main.js"></script>
-    <link rel="stylesheet" type="text/css" media="screen" href="<?php echo __DIR__; ?>/me.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="views/me.css" />
 </head>
 
 <body>
     <div id="header">
-        <img src="<?php echo $profilepic ?>" alt="Imagen de perfil">
+        <img src="<?php echo $profilepic; ?>" alt="Imagen de perfil">
     </div>
     <div>
         <div id="posts">
