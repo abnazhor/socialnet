@@ -35,6 +35,5 @@
             array_push($posts, $post);
         }
     }
-
-    require "views/me.view.php";
+    require (__DIR__."/views/me.view.php");
 ?>

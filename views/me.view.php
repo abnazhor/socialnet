@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <title>Page Title</title>
     <script src="main.js"></script>
-    <link rel="stylesheet" type="text/css" media="screen" href="views/me.view.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="<?php echo __DIR__; ?>/me.css" />
 </head>
 
 <body>
@@ -23,6 +23,9 @@
         <div id="info">
             <form action="cerrarSesion.php" method="post">
                 <input type="submit" value="Cerrar Sesión" name="logout">
+            </form>
+            <form action="settings.php" method="post">
+                <input type="submit" value="Ajustes">
             </form>
         </div>
     </div>
