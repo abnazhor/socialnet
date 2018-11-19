@@ -15,7 +15,7 @@
     <div id="allcontent">
         <div id="header">
             <div id="usercontent">
-                <a href="aboutme.php"> <img src="<?php echo $_SESSION["profilepic"]; ?>" alt="profile picture"></a>
+                <a href="me.php?usuario=<?php echo $_SESSION["usuario"] ?>"> <img src="<?php echo $_SESSION["profilepic"]; ?>" alt="profile picture"></a>
             </div>
         </div>
             <div id="message">
