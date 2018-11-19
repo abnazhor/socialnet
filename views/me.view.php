@@ -10,7 +10,7 @@
 
 <body>
     <div id="header">
-        <img src="<?php echo $posts[0][2] ?>" alt="Imagen de perfil">
+        <img src="<?php echo $profilepic ?>" alt="Imagen de perfil">
     </div>
     <div>
         <div id="posts">
