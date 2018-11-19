@@ -17,32 +17,32 @@ body {
     box-shadow: 5px 5px 5px rgba(14, 13, 13, 0.301);
 }
 
-#usercontent img {
+#usercontent {
     width: 100px;
     height: 100px;
-    margin: auto;
-    border: 3px solid white;
     border-radius: 100px;
-    position: relative;
     display: block;
+    margin: auto;
+    position: relative;
     top: 15px;
 }
 
-#header a {
+#usercontent img{
     width: 100px;
     height: 100px;
-    display: block;
-    margin: auto;
     border-radius: 100px;
-    background-color: green;
+    border: 3px solid white;
 }
 
 #message {
     float: left;
-    width: 29.5%;
+    width: 28%;
     background-color: #e9dddda9;
     top: 30px;
     position: relative;
+    padding: 1px 1px 5px 1px;
+    border-radius: 2px;
+    box-shadow: 5px 5px 5px rgba(14, 13, 13, 0.301);
 }
 
 #content {
@@ -66,8 +66,8 @@ body {
     position: relative;
     left: 5%;
     bottom: 20px;
-    height: 75px;
-    width: 75px;
+    height: 65px;
+    width: 65px;
     border-radius: 100px;
 }
 
