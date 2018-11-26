@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Page Title</title>
+    <title>Socialnet V0.1 - <?php echo $_GET["usuario"]; ?>'s profile</title>
     <script src="main.js"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="views/me.css" />
 </head>

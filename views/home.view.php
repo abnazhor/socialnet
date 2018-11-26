@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Page Title</title>
+    <title>Socialnet V0.1 - Home</title>
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             let elem = document.getElementsByTagName("textarea")[0];
