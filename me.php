@@ -35,6 +35,5 @@
             array_push($posts, $post);
         }
     }
-
-    require "views/me.view.php";
+    require ("views/me.view.php");
 ?>

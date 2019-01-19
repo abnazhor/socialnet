@@ -3,14 +3,14 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Page Title</title>
+    <title>Socialnet V0.1 - <?php echo $_GET["usuario"]; ?>'s profile</title>
     <script src="main.js"></script>
-    <link rel="stylesheet" type="text/css" media="screen" href="views/me.view.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="views/me.css" />
 </head>
 
 <body>
     <div id="header">
-        <img src="<?php echo $profilepic ?>" alt="Imagen de perfil">
+        <img src="<?php echo $profilepic; ?>" alt="Imagen de perfil">
     </div>
     <div>
         <div id="posts">
@@ -23,6 +23,9 @@
         <div id="info">
             <form action="cerrarSesion.php" method="post">
                 <input type="submit" value="Cerrar Sesión" name="logout">
+            </form>
+            <form action="settings.php" method="post">
+                <input type="submit" value="Ajustes">
             </form>
         </div>
     </div>

@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Page Title</title>
+    <title>Socialnet V0.1 - Login Screen</title>
     <link rel="stylesheet" type="text/css" media="screen" href="views/main.css" />
     <script src="main.js"></script>
 </head>

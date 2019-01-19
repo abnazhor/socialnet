@@ -20,6 +20,10 @@ form {
     top: 70px;
 }
 
+input {
+    color: grey;
+}
+
 
 input[type="text"], input[type="password"] {
     width: 75%;
